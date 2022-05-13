@@ -7,7 +7,7 @@
     box-sizing: border-box;  
 }
 body{
-    background-color: aqua;
+    background-color:  rgb(243, 243, 247);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,15 +16,15 @@ body{
     margin: 0;
 }
 .container{
-    background-color: white;
+    background-color: rgb(224, 224, 228);
     border-radius: 5px;
-    box-shadow:0 2px 10px rgba(0, 0, 0, 0.3);
+    box-shadow:0 2px 10px rgba(216, 216, 223, 0.932);
     width:400px;
 }
 h2{
     text-align: center;
     margin: 0 0 20px;
-    color:rgba(55, 0, 255, 0.842);
+    color:rgba(11, 12, 12, 0.842);
 }
 .form{
     padding:30px 40px;
@@ -35,7 +35,7 @@ h2{
     position:relative;
 }
 .form-control label{
-    color:rgba(55, 0, 255, 0.842);
+    color:rgba(7, 7, 7, 0.842);
     display:block;
     margin-bottom: 5px;
 
@@ -48,7 +48,7 @@ h2{
     padding:10px;
     font-size: 14px;
 }
-.fonm-control input:focus{
+.form-control input:focus{
     outline: blue;
     border-color:blue;
 }
@@ -59,7 +59,7 @@ h2{
     border-color: var(--error-color);
 }
 .form-control small{
-    color:var(--error-color);
+    color: var(--error-color);
     position: absolute;
     bottom:0;
     left:0;
@@ -70,13 +70,13 @@ h2{
 }
 .form button{
     cursor: pointer;
-    background-color: rgba(55, 0, 255, 0.842);
-    border:2px solid rgba(55, 0, 255, 0.842);
+    background-color: rgba(6, 21, 110, 0.842);
+    border:2px solid rgba(3, 19, 107, 0.842);
     border-radius: 4px;
     color:#fff;
     display: block;
-    padding: 10px;
-    margin-top: 20px;
     width:100%;
+    padding: 10px;
+    margin-top: 20px; 
     text-transform: uppercase;
 }
