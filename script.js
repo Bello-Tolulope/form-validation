@@ -11,6 +11,11 @@ function showError(input, message) {
     const small = input.nextElementSibling; // update here 
     small.innerText = message;
 }
+function showSuccess(input) {
+    const formControl = input.parentElement;
+    formControl.className = 'form-control success';
+}
+
 // adding the eventlistners
 form.addEventListener(submit, function(e) {
     e.preventDefault();
